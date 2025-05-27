@@ -5,7 +5,7 @@
 ?>
 
 <nav class="navbar">
-    <a href="index.php" class="logo-link">
+    <a href="<?= BASE_URL ?>index.php" class="logo-link">
         <h3 class="logo nav-link">Café</h3>
     </a>
     <ul class="nav-links">

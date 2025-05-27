@@ -22,14 +22,14 @@
           Creamos momentos inolvidables alrededor de una buena taza. Descubre
           nuestros productos y comparte la pasión por el café.
         </p>
-        <a href="blog/contacto.html" class="btn">Contáctanos!</a>
+        <a href="views/contacto.php" class="btn">Contáctanos!</a>
       </div>
     </header>
 
     <secttion class="home-products">
       <h2 class="products-title">Nuestros Productos</h2>
       <div class="home-product-list">
-        <a href="blog/productos.html" class="product-item">
+        <a href="views/productos.php" class="product-item">
           <img
             src="img/producto1.jpg"
             alt="Café Espresso"
@@ -40,14 +40,14 @@
             Un espresso intenso y aromático, perfecto para empezar el día.
           </p>
         </a>
-        <a href="blog/productos.html" class="product-item">
+        <a href="views/productos.php" class="product-item">
           <img src="img/producto1.jpg" alt="Café Latte" class="product-image" />
           <h3 class="product-name">Café Latte</h3>
           <p class="product-description">
             Suave y cremoso, ideal para disfrutar en cualquier momento.
           </p>
         </a>
-        <a href="blog/productos.html" class="product-item">
+        <a href="views/productos.php" class="product-item">
           <img
             src="img/producto1.jpg"
             alt="Café Americano"
@@ -59,7 +59,7 @@
           </p>
         </a>
       </div>
-      <a href="blog/productos.html" class="btn">Ver Productos</a>
+      <a href="views/productos.php" class="btn">Ver Productos</a>
     </secttion>
     <?php include "components/footer.php"?>
 

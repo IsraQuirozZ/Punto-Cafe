@@ -15,7 +15,7 @@
         Explora nuestra selección de café y productos artesanales.
       </h3>
       <div class="product-list">
-        <a href="blog/productos.html" class="product-item">
+        <a href="#" class="product-item">
           <img
             src="../img/producto1.jpg"
             alt="Café Espresso"
@@ -26,7 +26,7 @@
             Un espresso intenso y aromático, perfecto para empezar el día.
           </p>
         </a>
-        <a href="blog/productos.html" class="product-item">
+        <a href="#" class="product-item">
           <img
             src="../img/producto1.jpg"
             alt="Café Latte"
@@ -37,7 +37,7 @@
             Suave y cremoso, ideal para disfrutar en cualquier momento.
           </p>
         </a>
-        <a href="blog/productos.html" class="product-item">
+        <a href="#" class="product-item">
           <img
             src="../img/producto1.jpg"
             alt="Café Americano"
@@ -48,7 +48,7 @@
             Un clásico americano, fuerte y reconfortante.
           </p>
         </a>
-        <a href="blog/productos.html" class="product-item">
+        <a href="#" class="product-item">
           <img
             src="../img/producto1.jpg"
             alt="Café Americano"
@@ -59,7 +59,7 @@
             Un clásico americano, fuerte y reconfortante.
           </p>
         </a>
-        <a href="blog/productos.html" class="product-item">
+        <a href="#" class="product-item">
           <img
             src="../img/producto1.jpg"
             alt="Café Americano"
@@ -70,7 +70,7 @@
             Un clásico americano, fuerte y reconfortante.
           </p>
         </a>
-        <a href="blog/productos.html" class="product-item">
+        <a href="#" class="product-item">
           <img
             src="../img/producto1.jpg"
             alt="Café Americano"
@@ -88,7 +88,7 @@
           Contáctanos y te ayudamos a elegir el mejor producto para ti.
         </p>
       </div>
-      <a href="blog/contacto.html" class="btn">Contáctanos!</a>
+      <a href="contacto.php" class="btn">Contáctanos!</a>
     </secttion>
     <?php include "../components/footer.php" ?>
     <script

@@ -73,7 +73,7 @@ i:hover {
   color: wheat;
 }
 
-/* HERO */
+/* HOME */
 .hero {
   background-image: url("../img/hero.jpg");
   height: 100vh;
@@ -200,6 +200,89 @@ textarea:focus::placeholder {
   color: transparent;
 }
 
+/* BLOG */
+
+.hero-blog {
+  background-image: url("../img/hero-blog.jpg");
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 5%;
+}
+
+.hero-blog-content {
+  background-color: #333;
+  border-radius: 30px;
+  padding: 30px;
+  margin-top: 40px;
+}
+
+.btn-blog {
+  border-radius: 30px;
+}
+
+.blog-title {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.blog-posts {
+  display: grid;
+  gap: 20px;
+  padding: 0 20px;
+  grid-template-columns: 1fr;
+  justify-self: center;
+  margin-bottom: 30px;
+}
+
+.blog-post {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #333;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.blog-post img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  object-position: bottom;
+}
+
+.post-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.info-post {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-post p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: wheat;
+}
+
+.info-post i {
+  font-size: 28px;
+  color: wheat;
+  transition: color 0.3s ease;
+}
+
+.info-post i:hover {
+  color: white;
+}
+
 /* FOOTER */
 .footer {
   background-color: #333;
@@ -237,11 +320,13 @@ textarea:focus::placeholder {
     justify-content: end;
   }
 
-  .hero-content {
+  .hero-content,
+  .hero-blog-content {
     width: 40%;
   }
 
-  .hero-content .btn {
+  .hero-content .btn,
+  .hero-blog-content .btn {
     margin-top: 20px;
   }
 
@@ -275,5 +360,21 @@ textarea:focus::placeholder {
 
   .contact-icons {
     display: none;
+  }
+
+  /* BLOG */
+  .hero-blog {
+    justify-content: start;
+  }
+
+  .blog-posts {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 5%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .blog-posts {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
