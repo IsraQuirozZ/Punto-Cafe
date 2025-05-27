@@ -7,9 +7,9 @@
   <p>&copy; 2025 Cafetería. Todos los derechos reservados.</p>
   <nav class="footer-nav">
     <a href="<?= BASE_URL ?>index.php" class="nav-link">Inicio</a>
-    <a href="<?= BASE_URL ?>views/productos.html" class="nav-link">Productos</a>
-    <a href="<?= BASE_URL ?>views/blog.html" class="nav-link">Blog</a>
-    <a href="<?= BASE_URL ?>views/contacto.html" class="nav-link">Contacto</a>
+    <a href="<?= BASE_URL ?>views/productos.php" class="nav-link">Productos</a>
+    <a href="<?= BASE_URL ?>views/blog.php" class="nav-link">Blog</a>
+    <a href="<?= BASE_URL ?>views/contacto.php" class="nav-link">Contacto</a>
   </nav>
   <p>Deja que el café nos conecte. Síguenos!</p>
   <div class="footer-nav">
