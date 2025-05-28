@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Contacto</title>
-    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/styles.css" >
   </head>
   <body>
     <?php include "../components/navbar.php" ?>
@@ -24,7 +24,7 @@
         <p>Gracias por elegirnos y confiar en nuestra calidad.</p>
       </div>
 
-      <form class="contact-form" action="" method="post">
+      <form class="contact-form" action="">
         <h2>Contáctanos</h2>
         <input
           type="text"
@@ -53,8 +53,6 @@
           Acepto recibir informacion sobre productos y promociones.
         </label>
         <button type="submit" class="btn">Enviar</button>
-
-        
       </form>
     </section>
     <?php include "../components/footer.php" ?>

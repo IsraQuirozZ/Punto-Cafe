@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cafeteria</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css">
     <meta name="description" content="Descubre nuestra Cafetería, tu tienda en línea para comprar café de calidad y accesorios para disfrutarlo como se debe. Una experiencia pensada para amantes del café, desde casa.">
   </head>
   <body>
@@ -27,7 +27,7 @@
       </div>
     </header>
 
-    <secttion class="home-products">
+    <section class="home-products">
       <h2 class="products-title">Nuestros Productos</h2>
       <div class="home-product-list">
         <a href="views/productos.php" class="product-item">
@@ -35,14 +35,14 @@
             src="img/producto1.jpg"
             alt="Café Espresso"
             class="product-image"
-          />
+          >
           <h3 class="product-name">Café Espresso</h3>
           <p class="product-description">
             Un espresso intenso y aromático, perfecto para empezar el día.
           </p>
         </a>
         <a href="views/productos.php" class="product-item">
-          <img src="img/producto1.jpg" alt="Café Latte" class="product-image" />
+          <img src="img/producto1.jpg" alt="Café Latte" class="product-image" >
           <h3 class="product-name">Café Latte</h3>
           <p class="product-description">
             Suave y cremoso, ideal para disfrutar en cualquier momento.
@@ -61,7 +61,7 @@
         </a>
       </div>
       <a href="views/productos.php" class="btn">Ver Productos</a>
-    </secttion>
+    </section>
     <?php include "components/footer.php"?>
 
     <script

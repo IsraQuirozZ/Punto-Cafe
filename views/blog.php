@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Blog</title>
-    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/styles.css" >
   </head>
   <body>
     <?php include "../components/navbar.php" ?>
@@ -24,9 +24,9 @@
     </header>
     <h1 class="blog-title">Todos los artículos</h1>
 
-    <section class="blog-posts">
+    <div class="blog-posts">
       <article class="blog-post">
-        <img src="../img/blog-img.jpg" alt="imagen articulo" />
+        <img src="../img/blog-img.jpg" alt="imagen articulo" >
         <h3 class="post-title">
           Los mejores métodos para preparar café en casa
         </h3>
@@ -38,7 +38,7 @@
         </div>
       </article>
       <article class="blog-post">
-        <img src="../img/blog-img.jpg" alt="imagen articulo" />
+        <img src="../img/blog-img.jpg" alt="imagen articulo" >
         <h3 class="post-title">
           Beneficios del café para tu salud
         </h3>
@@ -50,7 +50,7 @@
         </div>
       </article>
       <article class="blog-post">
-        <img src="../img/blog-img.jpg" alt="imagen articulo" />
+        <img src="../img/blog-img.jpg" alt="imagen articulo" >
         <h3 class="post-title">
           Los mejores métodos para preparar café en casa
         </h3>
@@ -61,7 +61,7 @@
           </a>
         </div>
       </article>
-    </section>
+</div>
     <?php include "../components/footer.php" ?>
     <script
       src="https://kit.fontawesome.com/6209fab7df.js"

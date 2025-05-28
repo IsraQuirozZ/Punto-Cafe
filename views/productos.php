@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos</title>
-    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/styles.css">
   </head>
   <body>
     <?php include "../components/navbar.php" ?>
 
-    <secttion class="products">
+    <section class="products">
       <h2 class="products-title">Nuestros Productos</h2>
       <h3 class="products-text">
         Explora nuestra selección de café y productos artesanales.
@@ -20,7 +20,7 @@
             src="../img/producto1.jpg"
             alt="Café Espresso"
             class="product-image"
-          />
+          >
           <h3 class="product-name">Café Espresso</h3>
           <p class="product-description">
             Un espresso intenso y aromático, perfecto para empezar el día.
@@ -31,7 +31,7 @@
             src="../img/producto1.jpg"
             alt="Café Latte"
             class="product-image"
-          />
+          >
           <h3 class="product-name">Café Latte</h3>
           <p class="product-description">
             Suave y cremoso, ideal para disfrutar en cualquier momento.
@@ -42,7 +42,7 @@
             src="../img/producto1.jpg"
             alt="Café Americano"
             class="product-image"
-          />
+          >
           <h3 class="product-name">Café Americano</h3>
           <p class="product-description">
             Un clásico americano, fuerte y reconfortante.
@@ -53,7 +53,7 @@
             src="../img/producto1.jpg"
             alt="Café Americano"
             class="product-image"
-          />
+          >
           <h3 class="product-name">Café Americano</h3>
           <p class="product-description">
             Un clásico americano, fuerte y reconfortante.
@@ -64,7 +64,7 @@
             src="../img/producto1.jpg"
             alt="Café Americano"
             class="product-image"
-          />
+          >
           <h3 class="product-name">Café Americano</h3>
           <p class="product-description">
             Un clásico americano, fuerte y reconfortante.
@@ -75,7 +75,7 @@
             src="../img/producto1.jpg"
             alt="Café Americano"
             class="product-image"
-          />
+          >
           <h3 class="product-name">Café Americano</h3>
           <p class="product-description">
             Un clásico americano, fuerte y reconfortante.
@@ -89,7 +89,7 @@
         </p>
       </div>
       <a href="contacto.php" class="btn">Contáctanos!</a>
-    </secttion>
+    </section>
     <?php include "../components/footer.php" ?>
     <script
       src="https://kit.fontawesome.com/6209fab7df.js"
