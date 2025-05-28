@@ -13,13 +13,13 @@
   </nav>
   <p>Deja que el café nos conecte. Síguenos!</p>
   <div class="footer-nav">
-    <a href="#">
+    <a href="https://www.facebook.com/israel.quirozdezaldo/" target="_blank">
       <i class="fa-brands fa-square-facebook"></i>
     </a>
-    <a href="#">
+    <a href="https://www.instagram.com/isra_quirozz/" target="_blank">
       <i class="fa-brands fa-instagram"></i>
     </a>
-    <a href="#">
+    <a href="https://x.com" target="_blank">
       <i class="fa-brands fa-x-twitter"></i>
     </a>
   </div>

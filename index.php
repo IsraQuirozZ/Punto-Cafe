@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cafeteria</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <meta name="description" content="Descubre nuestra Cafetería, tu tienda en línea para comprar café de calidad y accesorios para disfrutarlo como se debe. Una experiencia pensada para amantes del café, desde casa.">
   </head>
   <body>
     <?php include "components/navbar.php"?>

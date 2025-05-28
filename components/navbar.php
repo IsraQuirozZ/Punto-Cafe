@@ -5,8 +5,8 @@
 ?>
 
 <nav class="navbar">
-    <a href="<?= BASE_URL ?>index.php" class="logo-link">
-        <h3 class="logo nav-link">Café</h3>
+    <a href="<?= BASE_URL ?>index.php" id="logo-link">
+        <h3 class="nav-link" id="logo">Café</h3>
     </a>
     <ul class="nav-links">
         <li class="nav-item">
